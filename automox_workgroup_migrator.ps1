@@ -8,7 +8,7 @@
 # Name of the CSV file being used as a database.  It should be in the same directory as this script.
 $csvName = "mig_db.csv"
 # Domain name of the "fake" domain where the object is stored
-$DomainName = "lab.rocklightnetworks.com"
+$DomainName = "lab.demo.com"
 # Runbook ID from the PSP Database (Links to the specific Runbook for this job)
 $RunbookGUID="6BE69B12-4E23-4AC4-0DC3-08DDE0CA5172"
 # Name of Migration Agent Service
@@ -22,10 +22,10 @@ $dotnet8_exeName = "windowsdesktop-runtime-win-x64.exe"
 $pspmig_name = "PSPMigrationAgentInstaller.msi"
 
 # PSP Server Full URL for Agent Endpoint
-$pspsvr_endpoint = "https://psp1.rocklightnetworks.com/Agent"
+$pspsvr_endpoint = "https://psp.demo.com/Agent"
 
 # PSP Server PSK
-$pspsvr_psk = "9zTwm/Q7uKqHJGo8lnjONHsEX8cDSiMDavLh/L8gEIQs2+BeHbwJWBWCWxSxz9IV"
+$pspsvr_psk = "INSERT PSK HERE"
 
 #Transcript Logging
 $tmpName = "automox_x86_launcher"
