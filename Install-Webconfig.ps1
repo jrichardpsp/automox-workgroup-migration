@@ -165,4 +165,4 @@ function Install-WebConfig {
     Write-Host "Forbidden page template written to $ForbiddenTarget..." -ForegroundColor Green
 }
 
-Install-WebConfig -FrontendHost "psp.aboutsib.com" -TargetFolder "C:\inetpub\wwwroot" -TargetFolder "web.config"
+Install-WebConfig -FrontendHost "psp.aboutsib.com" -TargetFolder "C:\inetpub\wwwroot" -TargetFile "web.config"
